@@ -17,9 +17,9 @@ const error404 = document.querySelector('.not-found');
                         feeling = "WARM, Wear Light Clothes";
                                       document.getElementById("myText").innerHTML = feeling;
                         }
-            if (p1 > 20 && p1<=25){
+            if (p1 > 20){
                       console.log("hot");
-                      feeling = "HOT, Take Your Umbrella Outside";
+                      feeling = "HOT, Use Umbrella";
                       document.getElementById("myText").innerHTML = feeling;
                   }
                   feeling.innerHTML = "hot";
